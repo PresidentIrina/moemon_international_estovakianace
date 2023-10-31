@@ -3086,10 +3086,10 @@ const struct PokedexEntry gPokedexEntries[] =
 
     [NATIONAL_DEX_SCEPTILE_MEGA] =
     {
-        .categoryName = _("Nude Leaf"),
+        .categoryName = _("Forest"),
         .height = 18,
         .weight = 522,
-        .description = gSceptileMegaNudePokedexText,
+        .description = gSceptilePokedexText,
         .pokemonScale = 256,
         .pokemonOffset = -1,
         .trainerScale = 275,
