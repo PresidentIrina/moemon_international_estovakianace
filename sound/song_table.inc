@@ -865,6 +865,16 @@ gSongTable::
 	song seq_126, 0, 0
 	song seq_127, 0, 0
 	song seq_128, 0, 0
+	song mus_pkmn_pmd2_donteverforget, 0, 0
+	song mus_pkmn_dp_vs_dialga_palkia, 0, 0
+	song mus_pkmn_dp_vs_trainer, 0, 0
+	song mus_pkmn_dp_vs_wild, 0, 0
+	song mus_pkmn_pl_vs_giratina, 0, 0
+	song mus_pkmn_xy_vs_wild, 0, 0
+	song mus_pkmn_usum_vs_wild, 0, 0
+	song mus_pkmn_swsh_vs_wild, 0, 0
+	song mus_pkmn_sv_teraraidbattle, 0, 0
+
 
 	.align 2
 dummy_song_header:

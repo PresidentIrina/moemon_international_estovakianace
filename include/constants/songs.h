@@ -799,7 +799,17 @@
 #define MUS_PKMN_PMDRED_FRIEND_AREA_HEALING_FOREST 862
 #define MUS_PKMN_PMDRED_MONSTER_HOUSE 863
 
-#define END_MUS                     MUS_PKMN_PMDRED_MONSTER_HOUSE
+#define MUS_PKMN_PMD2_DONTEVERFORGET 864
+#define MUS_PKMN_DP_VS_DIALGA_PALKIA 865
+#define MUS_PKMN_DP_VS_TRAINER 866
+#define MUS_PKMN_DP_VS_WILD 867
+#define MUS_PKMN_PL_VS_GIRATINA 868
+#define MUS_PKMN_XY_VS_WILD 869
+#define MUS_PKMN_USUM_VS_WILD 870
+#define MUS_PKMN_SWSH_VS_WILD 871
+#define MUS_PKMN_SV_TERARAIDBATTLE 872
+
+#define END_MUS                     MUS_PKMN_SV_TERARAIDBATTLE
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 
