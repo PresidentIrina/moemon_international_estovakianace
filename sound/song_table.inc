@@ -874,6 +874,7 @@ gSongTable::
 	song mus_pkmn_usum_vs_wild, 0, 0
 	song mus_pkmn_swsh_vs_wild, 0, 0
 	song mus_pkmn_sv_teraraidbattle, 0, 0
+	song mus_pkmn_glitchxcity_eterna_forest, 0, 0
 
 
 	.align 2
