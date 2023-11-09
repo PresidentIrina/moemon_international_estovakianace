@@ -12648,6 +12648,7 @@ static void Cmd_weatherdamage(void)
                 gBattleMoveDamage *= -1;
             }
             else if (!IS_BATTLER_OF_TYPE(gBattlerAttacker, TYPE_ICE)
+                && !(IS_BATTLER_OF_TYPE(gBattlerAttacker, TYPE_STEEL) && !(IS_BATTLER_OF_TYPE(gBattlerAttacker, TYPE_FLYING)))
                 && ability != ABILITY_SNOW_CLOAK
                 && ability != ABILITY_OVERCOAT
                 && ability != ABILITY_ICE_BODY
