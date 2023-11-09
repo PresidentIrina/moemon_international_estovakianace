@@ -6620,7 +6620,7 @@ mus_pkmn_glitchxcity_eterna_forest_5_5:
 mus_pkmn_glitchxcity_eterna_forest_6:
         .byte   KEYSH , mus_pkmn_glitchxcity_eterna_forest_key+0
 @ 000   ----------------------------------------
-        .byte           VOICE , 127
+        .byte           VOICE , 0
         .byte   W96
 @ 001   ----------------------------------------
         .byte   W96
