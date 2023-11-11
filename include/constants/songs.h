@@ -809,8 +809,9 @@
 #define MUS_PKMN_SWSH_VS_WILD 871
 #define MUS_PKMN_SV_TERARAIDBATTLE 872
 #define MUS_PKMN_GLITCHXCITY_ETERNA_FOREST 873
+#define MUS_PKMN_ORACEON 874
 
-#define END_MUS                     MUS_PKMN_GLITCHXCITY_ETERNA_FOREST
+#define END_MUS                     MUS_PKMN_ORACEON
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 
