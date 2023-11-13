@@ -169,3 +169,12 @@ ProgrammableWaveData_pmd_pcm_1E8663C::
 
 ProgrammableWaveData_pmd_pcm_1E8664C::
 	.incbin "sound/programmable_wave_samples/pmd_pcm_1E8664C.pcm"
+
+    .align 2
+ProgrammableWaveData_GoldenSun2pcm001::
+    .incbin "sound/programmable_wave_samples/golden_sun_2_pcm_001.pcm"
+
+    .align 2
+ProgrammableWaveData_GoldenSun2pcm002::
+    .incbin "sound/programmable_wave_samples/golden_sun_2_pcm_002.pcm"
+

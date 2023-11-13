@@ -7582,7 +7582,7 @@ u16 GetBattleBGM(void)
         }
     }
     else
-        return MUS_VS_WILD;
+        return MUS_GS2_VS_MAGICIAN;
 }
 
 void PlayBattleBGM(void)

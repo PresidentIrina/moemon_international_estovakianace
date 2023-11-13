@@ -1515,6 +1515,10 @@ SECTIONS {
         sound/songs/mus_pkmn_sv_teraraidbattle.o(.rodata);
         sound/songs/mus_pkmn_glitchxcity_eterna_forest.o(.rodata);
         sound/songs/mid_pkmn_oraceon.o(.rodata);
+        sound/songs/mus_gs2_vs_magician.o(.rodata);
+        sound/songs/mus_gs2_vs_doom_dragon.o(.rodata);
+        sound/songs/mus_gs2_garoh.o(.rodata);
+        sound/songs/mus_gs2_vs_valle.o(.rodata);
     } =0
 
     lib_rodata :

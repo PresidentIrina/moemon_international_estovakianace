@@ -811,7 +811,12 @@
 #define MUS_PKMN_GLITCHXCITY_ETERNA_FOREST 873
 #define MUS_PKMN_ORACEON 874
 
-#define END_MUS                     MUS_PKMN_ORACEON
+#define MUS_GS2_VS_MAGICIAN 875
+#define MUS_GS2_VS_DOOM_DRAGON 876
+#define MUS_GS2_GAROH 877
+#define MUS_GS2_VALLE 878
+
+#define END_MUS                     MUS_GS2_VALLE
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

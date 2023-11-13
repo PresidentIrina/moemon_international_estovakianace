@@ -876,7 +876,10 @@ gSongTable::
 	song mus_pkmn_sv_teraraidbattle, 0, 0
 	song mus_pkmn_glitchxcity_eterna_forest, 0, 0
 	song mid_pkmn_oraceon, 0, 0
-
+	song mus_gs2_vs_magician, 0, 0
+	song mus_gs2_vs_doom_dragon, 0, 0
+	song mus_gs2_garoh, 0, 0
+	song mus_gs2_vs_valle, 0, 0
 
 	.align 2
 dummy_song_header:
