@@ -1,3 +1,9 @@
+#define NSFW_CONTENT TRUE //Dont't forget to set to FALSE for public release
+
+   #if NSFW_CONTENT == TRUE
+   #else
+   #endif
+
 const struct PokedexEntry gPokedexEntries[] =
 {
     [NATIONAL_DEX_NONE] =
@@ -1248,6 +1254,19 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 5,
     },
 
+   #if NSFW_CONTENT == TRUE
+    [NATIONAL_DEX_EXEGGUTOR_ALOLAN] =
+    {
+        .categoryName = _("Sunning Tree"),
+        .height = 18,
+        .weight = 1200,
+        .description = gExeggutorAlolanNSFWPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 309,
+        .trainerOffset = 5,
+    },
+   #else
     [NATIONAL_DEX_EXEGGUTOR_ALOLAN] =
     {
         .categoryName = _("Coconut"),
@@ -1259,6 +1278,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 309,
         .trainerOffset = 5,
     },
+   #endif
 
     [NATIONAL_DEX_CUBONE] =
     {
@@ -2400,6 +2420,32 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 
+   #if NSFW_CONTENT == TRUE
+    [NATIONAL_DEX_SLOWKING_GALARIAN] =
+    {
+        .categoryName = _("Royal"),
+        .height = 18,
+        .weight = 795,
+        .description = gSlowkingGalarianNSFWPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 309,
+        .trainerOffset = 5,
+    },
+   #else
+    [NATIONAL_DEX_SLOWKING_GALARIAN] =
+    {
+        .categoryName = _("Royal"),
+        .height = 18,
+        .weight = 795,
+        .description = gSlowkingGalarianPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 309,
+        .trainerOffset = 5,
+    },
+   #endif
+
     [NATIONAL_DEX_SLOWKING] =
     {
         .categoryName = _("Royal"),
@@ -3000,17 +3046,31 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 7,
     },
 
+   #if NSFW_CONTENT == TRUE
     [NATIONAL_DEX_TYRANITAR_MEGA] =
     {
-        .categoryName = _("Armor"),
+        .categoryName = _("Dominant Sex"),
         .height = 19,
         .weight = 2020,
-        .description = gTyranitarPokedexText,
+        .description = gTyranitarMegaNSFWPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = 0,
         .trainerScale = 345,
         .trainerOffset = 7,
     },
+   #else
+    [NATIONAL_DEX_TYRANITAR_MEGA] =
+    {
+        .categoryName = _("Armor"),
+        .height = 19,
+        .weight = 2020,
+        .description = gTyranitarMegaPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 345,
+        .trainerOffset = 7,
+    },
+   #endif
 
     [NATIONAL_DEX_LUGIA] =
     {
@@ -3084,17 +3144,31 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 2,
     },
 
+   #if NSFW_CONTENT == TRUE
     [NATIONAL_DEX_SCEPTILE_MEGA] =
     {
-        .categoryName = _("Forest"),
+        .categoryName = _("Nude Leaf"),
         .height = 18,
         .weight = 522,
-        .description = gSceptilePokedexText,
+        .description = gSceptileMegaNSFWPokedexText,
         .pokemonScale = 256,
         .pokemonOffset = -1,
         .trainerScale = 275,
         .trainerOffset = 2,
     },
+   #else
+    [NATIONAL_DEX_SCEPTILE_MEGA] =
+    {
+        .categoryName = _("Forest"),
+        .height = 18,
+        .weight = 522,
+        .description = gSceptileMegaPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = -1,
+        .trainerScale = 275,
+        .trainerOffset = 2,
+    },
+   #endif
 
     [NATIONAL_DEX_TORCHIC] =
     {
@@ -4284,6 +4358,19 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+   #if NSFW_CONTENT == TRUE
+    [NATIONAL_DEX_BANETTE] =
+    {
+        .categoryName = _("Yandere"),
+        .height = 18,
+        .weight = 125,
+        .description = gBanetteNSFWPokedexText,
+        .pokemonScale = 262,
+        .pokemonOffset = 9,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+   #else
     [NATIONAL_DEX_BANETTE] =
     {
         .categoryName = _("Puppet"),
@@ -4295,6 +4382,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
+   #endif
 
     [NATIONAL_DEX_DUSKULL] =
     {
@@ -6771,6 +6859,19 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+   #if NSFW_CONTENT == TRUE
+    [NATIONAL_DEX_SIGILYPH] =
+    {
+        .categoryName = _("Exposed"),
+        .height = 18,
+        .weight = 140,
+        .description = gSigilyphNSFWPokedexText,
+        .pokemonScale = 265,
+        .pokemonOffset = 2,
+        .trainerScale = 262,
+        .trainerOffset = 0,
+    },
+   #else
     [NATIONAL_DEX_SIGILYPH] =
     {
         .categoryName = _("Guardian"),
@@ -6782,6 +6883,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 262,
         .trainerOffset = 0,
     },
+   #endif
 
     [NATIONAL_DEX_YAMASK] =
     {
@@ -7575,6 +7677,19 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+   #if NSFW_CONTENT == TRUE
+    [NATIONAL_DEX_BRAVIARY] =
+    {
+        .categoryName = _("Wild Breed"),
+        .height = 18,
+        .weight = 410,
+        .description = gBraviaryNSFWPokedexText,
+        .pokemonScale = 268,
+        .pokemonOffset = 2,
+        .trainerScale = 271,
+        .trainerOffset = 0,
+    },
+   #else
     [NATIONAL_DEX_BRAVIARY] =
     {
         .categoryName = _("Eagle"),
@@ -7586,6 +7701,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 271,
         .trainerOffset = 0,
     },
+   #endif
 
     [NATIONAL_DEX_VULLABY] =
     {
@@ -7755,9 +7871,22 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
+   #if NSFW_CONTENT == TRUE
     [NATIONAL_DEX_RESHIRAM] =
     {
-        .categoryName = _("Truth"),
+        .categoryName = _("Naked Truth"),
+        .height = 20,
+        .weight = 3300,
+        .description = gReshiramNSFWPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 445,
+        .trainerOffset = 8,
+    },
+   #else
+    [NATIONAL_DEX_RESHIRAM] =
+    {
+        .categoryName = _("Vast White"),
         .height = 20,
         .weight = 3300,
         .description = gReshiramPokedexText,
@@ -7766,10 +7895,24 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 445,
         .trainerOffset = 8,
     },
+   #endif
 
+   #if NSFW_CONTENT == TRUE
     [NATIONAL_DEX_ZEKROM] =
     {
-        .categoryName = _("Ideals"),
+        .categoryName = _("Generator"),
+        .height = 20,
+        .weight = 3450,
+        .description = gZekromNSFWPokedexText,
+        .pokemonScale = 275,
+        .pokemonOffset = 2,
+        .trainerScale = 412,
+        .trainerOffset = 10,
+    },
+   #else
+    [NATIONAL_DEX_ZEKROM] =
+    {
+        .categoryName = _("Deep Black"),
         .height = 20,
         .weight = 3450,
         .description = gZekromPokedexText,
@@ -7778,6 +7921,7 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 412,
         .trainerOffset = 10,
     },
+   #endif
 
     [NATIONAL_DEX_LANDORUS] =
     {

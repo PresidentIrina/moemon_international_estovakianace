@@ -628,6 +628,12 @@ const u8 gExeggutorAlolanPokedexText[] = _(
     "This is the result.\n"
     "");
 
+const u8 gExeggutorAlolanNSFWPokedexText[] = _(
+    "The strong sunlight of the Alola region has\n"
+    "awakened the power hidden within Exeggutor.\n"
+    "This is the result. She does not wear clothes,\n"
+    "aiming to absorb sunlight to attain more power");
+
 const u8 gCubonePokedexText[] = _(
     "Her headpiece is a gift from her mother.\n"
     "Cubone gather during the full moon to\n"
@@ -1204,6 +1210,18 @@ const u8 gSlowkingPokedexText[] = _(
     "Despite this, she is still very lazy.\n"
     "");
 
+const u8 gSlowkingGalarianPokedexText[] = _(
+    "\n"
+    "\n"
+    "\n"
+    "");
+
+const u8 gSlowkingGalarianNSFWPokedexText[] = _(
+    "The odd crown given to her by Shellder\n"
+    "is now controlling her mind. She is \n"
+    "forced to accept any sexual advances,\n"
+    "and has her libido constantly maxed.");
+
 const u8 gMisdreavusPokedexText[] = _(
     "Misdreavus guides unsuspecting Trainers\n"
     "through graveyards with her lamp, solely\n"
@@ -1498,6 +1516,18 @@ const u8 gTyranitarPokedexText[] = _(
     "as powerful as her.n"
     "");
 
+const u8 gTyranitarMegaPokedexText[] = _(
+    "\n"
+    "\n"
+    "\n"
+    "");
+
+const u8 gTyranitarMegaNSFWPokedexText[] = _(
+    "A Tyranitar that has gone into heat is very\n"
+    "dangerous. She will roam mountainous areas\n"
+    "in search of trainers and other Moémon to\n"
+    "defeat in combat and force herself upon.");
+
 const u8 gLugiaPokedexText[] = _(
     "Her enormous wings can stir up\n"
     "hurricanes. Knowing this, she rests at\n"
@@ -1533,6 +1563,18 @@ const u8 gSceptilePokedexText[] = _(
     "of food. The seeds that drop off her will\n"
     "eventually grow into a lush underbrush.\n"
     "");
+
+const u8 gSceptileMegaPokedexText[] = _(
+    "\n"
+    "\n"
+    "\n"
+    "");
+
+const u8 gSceptileMegaNSFWPokedexText[] = _(
+    "The leaves growing on Sceptile’s body are\n"
+    "very sharp edged. As such, this Moémon no\n"
+    "longer wears clothes due to the blades\n"
+    "constantly ripping them apart.");
 
 const u8 gTorchicPokedexText[] = _(
     "Torchic will follow her Trainer to the\n"
@@ -2127,6 +2169,12 @@ const u8 gBanettePokedexText[] = _(
     "consumed with her grudge against the\n"
     "child she held so dear.\n"
     "");
+
+const u8 gBanetteNSFWPokedexText[] = _(
+    "A Moémon that wanders the world until\n"
+    "she finds a trainer that catches her eye.\n"
+    "She then follows that trainer and\n"
+    "forces them to fall in love with her.");
 
 const u8 gSeviperPokedexText[] = _(
     "Seviper practice a coming of age ritual,\n"
@@ -3382,6 +3430,12 @@ const u8 gSigilyphPokedexText[] = _(                            //Needs Doing
     "watch for invaders. They use their\n"
     "psychic power to attack enemies.");
 
+const u8 gSigilyphNSFWPokedexText[] = _(
+    "The guardians of an ancient city, they\n"
+    "were also tasked with providing sexual\n"
+    "relief for their fellow guards. For\n"
+    "this, their lower body is exposed.");
+
 const u8 gYamaskPokedexText[] = _(
     "She hides behind her mask to prevent\n"
     "people from seeing her face of regret\n"
@@ -3784,6 +3838,12 @@ const u8 gBraviaryPokedexText[] = _(                            //Needs Doing
     "even if it is injured. One can carry a car\n"
     "while flying.");
 
+const u8 gBraviaryNSFWPokedexText[] = _(
+    "This tribal Moémon is extremely attractive\n"
+    "and known for their wild sex. She will\n"
+    "leave her nest to find Moémon and Moémon\n"
+    "trainers to breed with.");
+
 const u8 gVullabyPokedexText[] = _(                            //Needs Doing
     "It can't fly yet and must wait until its\n"
     "wings have developed more. They guard\n"
@@ -3874,11 +3934,23 @@ const u8 gReshiramPokedexText[] = _(                            //Needs Doing
     "burning up everything around it. It helps\n"
     "those who want to build a world of truth.");
 
+const u8 gReshiramNSFWPokedexText[] = _(
+    "Due to this Moémon's intense flames, she\n"
+    "is not able to wear clothing. She is often\n"
+    "found in a dormant state in secluded areas.\n"
+    "As such, she is often raped in her sleep.");
+
 const u8 gZekromPokedexText[] = _(                            //Needs Doing
     "This legendary Moémon can scorch the\n"
     "world with lightning. It has a generator\n"
     "that creates electricity in its tail. It\n"
     "assists those with strong ideals.");
+
+const u8 gZekromNSFWPokedexText[] = _(
+    "Like her sister Reshiram, this Moémon is \n"
+    "not able to wear clothing and is raped in\n"
+    "her sleep as a result. She is often found\n"
+    "carrying one of her fertilized eggs.");
 
 const u8 gLandorusPokedexText[] = _(                            //Needs Doing
     "The energy that comes pouring from its tail\n"
