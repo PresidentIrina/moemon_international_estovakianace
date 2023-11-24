@@ -7646,6 +7646,60 @@ static const union AnimCmd sAnim_Ryuuhou_1[] =
     ANIMCMD_FRAME(0, 1),
     ANIMCMD_END,
 };
+static const union AnimCmd sAnim_EscavalierSummer_1[] =
+{
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 25),
+    ANIMCMD_FRAME(0, 30),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_GarchompBunny_1[] =
+{
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 8),
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_FRAME(1, 35),
+    ANIMCMD_FRAME(0, 5),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_Veluza_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_CobalionBunny_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_FRAME(1, 36),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_TerrakionBunny_1[] =
+{
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 20),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_TerrakionBunny_2[] =
+{
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_FRAME(2, 20),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_FRAME(2, 20),
+    ANIMCMD_END,
+};
+static const union AnimCmd sAnim_VirizionBunny_1[] =
+{
+    ANIMCMD_FRAME(1, 15),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_END,
+};
 
 #if P_GEN_6_POKEMON == TRUE
 static const union AnimCmd sAnim_Chespin_1[] =
@@ -7658,44 +7712,44 @@ static const union AnimCmd sAnim_Chespin_1[] =
     ANIMCMD_END,
 };
 
-//static const union AnimCmd sAnim_Quilladin_1[] =
-//{
-//    ANIMCMD_FRAME(0, 11),
-//    ANIMCMD_FRAME(1, 10),
-//    ANIMCMD_FRAME(0, 10),
-//    ANIMCMD_FRAME(1, 10),
-//    ANIMCMD_FRAME(0, 10),
-//    ANIMCMD_END,
-//};
+static const union AnimCmd sAnim_Quilladin_1[] =
+{
+    ANIMCMD_FRAME(0, 11),
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
 
-//static const union AnimCmd sAnim_Quilladin_2[] =
-//{
-//    ANIMCMD_FRAME(0, 20),
-//    ANIMCMD_FRAME(2, 20),
-//    ANIMCMD_FRAME(0, 20),
-//    ANIMCMD_FRAME(2, 20),
-//    ANIMCMD_END,
-//};
+static const union AnimCmd sAnim_Quilladin_2[] =
+{
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_FRAME(2, 20),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_FRAME(2, 20),
+    ANIMCMD_END,
+};
 
-//static const union AnimCmd sAnim_Chesnaught_1[] =
-//{
-//    ANIMCMD_FRAME(1, 50),
-//    ANIMCMD_FRAME(1, 40),
-//    ANIMCMD_FRAME(0, 10),
-//    ANIMCMD_END,
-//};
+static const union AnimCmd sAnim_Chesnaught_1[] =
+{
+    ANIMCMD_FRAME(1, 50),
+    ANIMCMD_FRAME(1, 40),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
 
-//static const union AnimCmd sAnim_Fennekin_1[] =
-//{
-//    ANIMCMD_FRAME(0, 15),
-//    ANIMCMD_FRAME(1, 15),
-//    ANIMCMD_FRAME(0, 20),
-//    ANIMCMD_FRAME(1, 10),
-//    ANIMCMD_FRAME(0, 10),
-//    ANIMCMD_FRAME(1, 10),
-//    ANIMCMD_FRAME(0, 10),
-//    ANIMCMD_END,
-//};
+static const union AnimCmd sAnim_Fennekin_1[] =
+{
+    ANIMCMD_FRAME(0, 15),
+    ANIMCMD_FRAME(1, 15),
+    ANIMCMD_FRAME(0, 20),
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_FRAME(1, 10),
+    ANIMCMD_FRAME(0, 10),
+    ANIMCMD_END,
+};
 
 static const union AnimCmd sAnim_Braixen_1[] =
 {
@@ -11226,11 +11280,17 @@ SINGLE_ANIMATION(Genesect);
 SINGLE_ANIMATION(Valkyrie);
 SINGLE_ANIMATION(Flak88);
 SINGLE_ANIMATION(Ryuuhou);
+SINGLE_ANIMATION(EscavalierSummer);
+SINGLE_ANIMATION(GarchompBunny);
+SINGLE_ANIMATION(Veluza);
+SINGLE_ANIMATION(CobalionBunny);
+DOUBLE_ANIMATION(TerrakionBunny);
+SINGLE_ANIMATION(VirizionBunny);
 #if P_GEN_6_POKEMON == TRUE
 SINGLE_ANIMATION(Chespin);
-//DOUBLE_ANIMATION(Quilladin);
-//SINGLE_ANIMATION(Chesnaught);
-//SINGLE_ANIMATION(Fennekin);
+DOUBLE_ANIMATION(Quilladin);
+SINGLE_ANIMATION(Chesnaught);
+SINGLE_ANIMATION(Fennekin);
 SINGLE_ANIMATION(Braixen);
 SINGLE_ANIMATION(Delphox);
 SINGLE_ANIMATION(Froakie);
@@ -12314,15 +12374,11 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_MELOETTA] = sAnims_Meloetta,
     [SPECIES_GENESECT] = sAnims_Genesect,
 #endif
-//Moemon International
-    [SPECIES_VALKYRIE] = sAnims_Valkyrie,
-    [SPECIES_FLAK88] = sAnims_Flak88,
-    [SPECIES_RYUUHOU] = sAnims_Ryuuhou,
 #if P_GEN_6_POKEMON == TRUE
     [SPECIES_CHESPIN] = sAnims_Chespin,
-    //[SPECIES_QUILLADIN] = sAnims_Quilladin,
-    //[SPECIES_CHESNAUGHT] = sAnims_Chesnaught,
-    //[SPECIES_FENNEKIN] = sAnims_Fennekin,
+    [SPECIES_QUILLADIN] = sAnims_Quilladin,
+    [SPECIES_CHESNAUGHT] = sAnims_Chesnaught,
+    [SPECIES_FENNEKIN] = sAnims_Fennekin,
     [SPECIES_BRAIXEN] = sAnims_Braixen,
     [SPECIES_DELPHOX] = sAnims_Delphox,
     [SPECIES_FROAKIE] = sAnims_Froakie,
@@ -12934,4 +12990,14 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     [SPECIES_BASCULEGION_FEMALE] = sAnims_Basculegion,
 #endif
     [SPECIES_EGG]         = sAnims_Egg,
+    //Moemon International
+    [SPECIES_VALKYRIE] = sAnims_Valkyrie,
+    [SPECIES_FLAK88] = sAnims_Flak88,
+    [SPECIES_RYUUHOU] = sAnims_Ryuuhou,
+    [SPECIES_ESCAVALIERSUMMER] = sAnims_EscavalierSummer,
+    [SPECIES_GARCHOMPBUNNY] = sAnims_GarchompBunny,
+    [SPECIES_VELUZA] = sAnims_Veluza,
+    [SPECIES_COBALIONBUNNY] = sAnims_CobalionBunny,
+    [SPECIES_TERRAKIONBUNNY] = sAnims_TerrakionBunny,
+    [SPECIES_VIRIZIONBUNNY] = sAnims_VirizionBunny,
 };

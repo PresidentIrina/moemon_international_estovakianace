@@ -654,15 +654,11 @@ const struct CompressedSpriteSheet gMonFrontPicTable[] =
     SPECIES_SPRITE(MELOETTA, gMonFrontPic_Meloetta),
     SPECIES_SPRITE(GENESECT, gMonFrontPic_Genesect),
 #endif
-    //Moemon International
-    SPECIES_SPRITE(VALKYRIE, gMonFrontPic_Valkyrie),
-    SPECIES_SPRITE(FLAK88, gMonFrontPic_Flak88),
-    SPECIES_SPRITE(RYUUHOU, gMonFrontPic_Ryuuhou),
 #if P_GEN_6_POKEMON == TRUE
     SPECIES_SPRITE(CHESPIN, gMonFrontPic_Chespin),
-    //SPECIES_SPRITE(QUILLADIN, gMonFrontPic_Quilladin),
-    //SPECIES_SPRITE(CHESNAUGHT, gMonFrontPic_Chesnaught),
-    //SPECIES_SPRITE(FENNEKIN, gMonFrontPic_Fennekin),
+    SPECIES_SPRITE(QUILLADIN, gMonFrontPic_Quilladin),
+    SPECIES_SPRITE(CHESNAUGHT, gMonFrontPic_Chesnaught),
+    SPECIES_SPRITE(FENNEKIN, gMonFrontPic_Fennekin),
     SPECIES_SPRITE(BRAIXEN, gMonFrontPic_Braixen),
     SPECIES_SPRITE(DELPHOX, gMonFrontPic_Delphox),
     SPECIES_SPRITE(FROAKIE, gMonFrontPic_Froakie),
@@ -1364,4 +1360,14 @@ const struct CompressedSpriteSheet gMonFrontPicTableFemale[] =
 #if P_GEN_6_POKEMON == TRUE
     SPECIES_SPRITE(PYROAR, gMonFrontPic_PyroarF),
 #endif
+//Moemon International
+    SPECIES_SPRITE(VALKYRIE, gMonFrontPic_Valkyrie),
+    SPECIES_SPRITE(FLAK88, gMonFrontPic_Flak88),
+    SPECIES_SPRITE(RYUUHOU, gMonFrontPic_Ryuuhou),
+    SPECIES_SPRITE(ESCAVALIERSUMMER, gMonFrontPic_EscavalierSummer),
+    SPECIES_SPRITE(GARCHOMPBUNNY, gMonFrontPic_GarchompBunny),
+    SPECIES_SPRITE(VELUZA, gMonFrontPic_Veluza),
+    SPECIES_SPRITE(COBALIONBUNNY, gMonFrontPic_CobalionBunny),
+    SPECIES_SPRITE(TERRAKIONBUNNY, gMonFrontPic_TerrakionBunny),
+    SPECIES_SPRITE(VIRIZIONBUNNY, gMonFrontPic_VirizionBunny),
 };

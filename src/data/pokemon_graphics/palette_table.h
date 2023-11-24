@@ -654,15 +654,11 @@ const struct CompressedSpritePalette gMonPaletteTable[] =
     SPECIES_PAL(MELOETTA, gMonPalette_Meloetta),
     SPECIES_PAL(GENESECT, gMonPalette_Genesect),
 #endif
-    //Moemon International
-    SPECIES_PAL(VALKYRIE, gMonPalette_Valkyrie),
-    SPECIES_PAL(FLAK88, gMonPalette_Flak88),
-    SPECIES_PAL(RYUUHOU, gMonPalette_Ryuuhou),
 #if P_GEN_6_POKEMON == TRUE
     SPECIES_PAL(CHESPIN, gMonPalette_Chespin),
-    //SPECIES_PAL(QUILLADIN, gMonPalette_Quilladin),
-    //SPECIES_PAL(CHESNAUGHT, gMonPalette_Chesnaught),
-    //SPECIES_PAL(FENNEKIN, gMonPalette_Fennekin),
+    SPECIES_PAL(QUILLADIN, gMonPalette_Quilladin),
+    SPECIES_PAL(CHESNAUGHT, gMonPalette_Chesnaught),
+    SPECIES_PAL(FENNEKIN, gMonPalette_Fennekin),
     SPECIES_PAL(BRAIXEN, gMonPalette_Braixen),
     SPECIES_PAL(DELPHOX, gMonPalette_Delphox),
     SPECIES_PAL(FROAKIE, gMonPalette_Froakie),
@@ -1363,4 +1359,14 @@ const struct CompressedSpritePalette gMonPaletteTableFemale[] =
 #if P_GEN_6_POKEMON == TRUE
     SPECIES_PAL(PYROAR, gMonPalette_Pyroar),
 #endif
+//Moemon International
+    SPECIES_PAL(VALKYRIE, gMonPalette_Valkyrie),
+    SPECIES_PAL(FLAK88, gMonPalette_Flak88),
+    SPECIES_PAL(RYUUHOU, gMonPalette_Ryuuhou),
+    SPECIES_PAL(ESCAVALIERSUMMER, gMonPalette_EscavalierSummer),
+    SPECIES_PAL(GARCHOMPBUNNY, gMonPalette_GarchompBunny),
+    SPECIES_PAL(VELUZA, gMonPalette_Veluza),
+    SPECIES_PAL(COBALIONBUNNY, gMonPalette_CobalionBunny),
+    SPECIES_PAL(TERRAKIONBUNNY, gMonPalette_TerrakionBunny),
+    SPECIES_PAL(VIRIZIONBUNNY, gMonPalette_VirizionBunny),
 };

@@ -5498,3 +5498,39 @@ const u8 gRyuuhouPokedexText[] = _(
     "Moémon Research Lab. She is designed after\n"
     "a vehicle from another world, capable of\n"
     "using small aircraft to assis her in battle.");
+
+const u8 gEscavalierSummerPokedexText[] = _(
+    "Escavalier in her swimsuit. Without her\n"
+    "heavy armor, she's able to full enjoy\n"
+    "swimming.\n"
+    "");
+
+const u8 gGarchompBunnyPokedexText[] = _(
+    "Garchomp in her special Bunny outfit.\n"
+    "She's able to jump higher and move even\n"
+    "faster than her normal counterpart.\n"
+    "");
+
+const u8 gVeluzaPokedexText[] = _(
+    "When Veluza is hunting, she'll lie in wait\n"
+    "watching for prey. When she spots them,\n"
+    "she'll throw off her outer wear. This\n"
+    "increases her swimming speed to catch them.");
+
+const u8 gCobalionBunnyPokedexText[] = _(
+    "Cobalion in her special Bunny outfit.\n"
+    "She's able to jump higher and move even\n"
+    "faster than her normal counterpart.\n"
+    "");
+
+const u8 gTerrakionBunnyPokedexText[] = _(
+    "Terrakion in her special Bunny outfit.\n"
+    "She's able to jump higher and move even\n"
+    "faster than her normal counterpart.\n"
+    "");
+
+const u8 gVirizionBunnyPokedexText[] = _(
+    "Virizion in her special Bunny outfit.\n"
+    "She's able to jump higher and move even\n"
+    "faster than her normal counterpart.\n"
+    "");

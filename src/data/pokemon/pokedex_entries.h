@@ -1,8 +1,4 @@
-#define NSFW_CONTENT TRUE //Dont't forget to set to FALSE for public release
-
-   #if NSFW_CONTENT == TRUE
-   #else
-   #endif
+#include "config/pokemon.h"
 
 const struct PokedexEntry gPokedexEntries[] =
 {
@@ -7984,43 +7980,6 @@ const struct PokedexEntry gPokedexEntries[] =
     },
 #endif
 
-//Moemon International
-    [NATIONAL_DEX_VALKYRIE] =
-    {
-        .categoryName = _("Fast Bomber"),
-        .height = 19,
-        .weight = 850,
-        .description = gValkyriePokedexText,
-        .pokemonScale = 268,
-        .pokemonOffset = 2,
-        .trainerScale = 271,
-        .trainerOffset = 0,
-    },
-
-    [NATIONAL_DEX_FLAK88] =
-    {
-        .categoryName = _("AA Gun"),
-        .height = 17,
-        .weight = 750,
-        .description = gFlak88PokedexText,
-        .pokemonScale = 268,
-        .pokemonOffset = 2,
-        .trainerScale = 271,
-        .trainerOffset = 0,
-    },
-
-    [NATIONAL_DEX_RYUUHOU] =
-    {
-        .categoryName = _("Carrier"),
-        .height = 18,
-        .weight = 700,
-        .description = gRyuuhouPokedexText,
-        .pokemonScale = 268,
-        .pokemonOffset = 2,
-        .trainerScale = 271,
-        .trainerOffset = 0,
-    },
-
 #if P_GEN_6_POKEMON == TRUE
     [NATIONAL_DEX_CHESPIN] =
     {
@@ -8034,41 +7993,41 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 0,
     },
 
-    //[NATIONAL_DEX_QUILLADIN] =
-    //{
-    //    .categoryName = _("Spiny Armor"),
-    //    .height = 7,
-    //    .weight = 290,
-    //    .description = gQuilladinPokedexText,
-    //    .pokemonScale = 365,
-    //    .pokemonOffset = 12,
-    //    .trainerScale = 256,
-    //    .trainerOffset = 0,
-    //},
+    [NATIONAL_DEX_QUILLADIN] =
+    {
+        .categoryName = _("Spiny Armor"),
+        .height = 7,
+        .weight = 290,
+        .description = gQuilladinPokedexText,
+        .pokemonScale = 365,
+        .pokemonOffset = 12,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
 
-    //[NATIONAL_DEX_CHESNAUGHT] =
-    //{
-    //    .categoryName = _("Spiny Armor"),
-    //    .height = 16,
-    //    .weight = 900,
-    //    .description = gChesnaughtPokedexText,
-    //    .pokemonScale = 259,
-    //    .pokemonOffset = 1,
-    //    .trainerScale = 296,
-    //    .trainerOffset = 1,
-    //},
+    [NATIONAL_DEX_CHESNAUGHT] =
+    {
+        .categoryName = _("Spiny Armor"),
+        .height = 16,
+        .weight = 900,
+        .description = gChesnaughtPokedexText,
+        .pokemonScale = 259,
+        .pokemonOffset = 1,
+        .trainerScale = 296,
+        .trainerOffset = 1,
+    },
 
-    //[NATIONAL_DEX_FENNEKIN] =
-    //{
-    //    .categoryName = _("Fox"),
-    //    .height = 4,
-    //    .weight = 94,
-    //    .description = gFennekinPokedexText,
-    //    .pokemonScale = 491,
-    //    .pokemonOffset = 12,
-    //    .trainerScale = 256,
-    //    .trainerOffset = 0,
-    //},
+    [NATIONAL_DEX_FENNEKIN] =
+    {
+        .categoryName = _("Fox"),
+        .height = 4,
+        .weight = 94,
+        .description = gFennekinPokedexText,
+        .pokemonScale = 491,
+        .pokemonOffset = 12,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
 
     [NATIONAL_DEX_BRAIXEN] =
     {
@@ -11098,4 +11057,112 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerOffset = 1,
     },
 #endif
+//Moemon International
+    [NATIONAL_DEX_VALKYRIE] =
+    {
+        .categoryName = _("Fast Bomber"),
+        .height = 19,
+        .weight = 850,
+        .description = gValkyriePokedexText,
+        .pokemonScale = 268,
+        .pokemonOffset = 2,
+        .trainerScale = 271,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_FLAK88] =
+    {
+        .categoryName = _("AA Gun"),
+        .height = 17,
+        .weight = 750,
+        .description = gFlak88PokedexText,
+        .pokemonScale = 268,
+        .pokemonOffset = 2,
+        .trainerScale = 271,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_RYUUHOU] =
+    {
+        .categoryName = _("Carrier"),
+        .height = 18,
+        .weight = 700,
+        .description = gRyuuhouPokedexText,
+        .pokemonScale = 268,
+        .pokemonOffset = 2,
+        .trainerScale = 271,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_ESCAVALIERSUMMER] =
+    {
+        .categoryName = _("WTR Cavalry"),
+        .height = 18,
+        .weight = 330,
+        .description = gEscavalierSummerPokedexText,
+        .pokemonScale = 305,
+        .pokemonOffset = 7,
+        .trainerScale = 257,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_GARCHOMPBUNNY] =
+    {
+        .categoryName = _("Mach Bunny"),
+        .height = 19,
+        .weight = 950,
+        .description = gGarchompBunnyPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 1,
+        .trainerScale = 326,
+        .trainerOffset = 4,
+    },
+
+    [NATIONAL_DEX_VELUZA] =
+    {
+        .categoryName = _("Jettison"),
+        .height = 18,
+        .weight = 900,
+        .description = gVeluzaPokedexText,
+        .pokemonScale = 261,
+        .pokemonOffset = 1,
+        .trainerScale = 344,
+        .trainerOffset = 4,
+    },
+
+    [NATIONAL_DEX_COBALIONBUNNY] =
+    {
+        .categoryName = _("STL Bunny"),
+        .height = 18,
+        .weight = 2500,
+        .description = gCobalionBunnyPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 0,
+        .trainerScale = 365,
+        .trainerOffset = 7,
+    },
+
+    [NATIONAL_DEX_TERRAKIONBUNNY] =
+    {
+        .categoryName = _("RCK Bunny"),
+        .height = 18,
+        .weight = 2600,
+        .description = gTerrakionBunnyPokedexText,
+        .pokemonScale = 256,
+        .pokemonOffset = 1,
+        .trainerScale = 336,
+        .trainerOffset = 4,
+    },
+
+    [NATIONAL_DEX_VIRIZIONBUNNY] =
+    {
+        .categoryName = _("GRS Bunny"),
+        .height = 18,
+        .weight = 2000,
+        .description = gVirizionBunnyPokedexText,
+        .pokemonScale = 261,
+        .pokemonOffset = 1,
+        .trainerScale = 344,
+        .trainerOffset = 4,
+    },
 };

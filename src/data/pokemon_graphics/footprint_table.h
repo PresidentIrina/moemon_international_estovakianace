@@ -654,15 +654,11 @@ const u8 *const gMonFootprintTable[] =
     [SPECIES_MELOETTA] = gMonFootprint_Meloetta,
     [SPECIES_GENESECT] = gMonFootprint_Genesect,
 #endif
-    //Moemon International
-    [SPECIES_VALKYRIE] = gMonFootprint_Valkyrie,
-    [SPECIES_FLAK88] = gMonFootprint_Flak88,
-    [SPECIES_RYUUHOU] = gMonFootprint_Ryuuhou,
 #if P_GEN_6_POKEMON == TRUE
     [SPECIES_CHESPIN] = gMonFootprint_Chespin,
-    //[SPECIES_QUILLADIN] = gMonFootprint_Quilladin,
-    //[SPECIES_CHESNAUGHT] = gMonFootprint_Chesnaught,
-    //[SPECIES_FENNEKIN] = gMonFootprint_Fennekin,
+    [SPECIES_QUILLADIN] = gMonFootprint_Quilladin,
+    [SPECIES_CHESNAUGHT] = gMonFootprint_Chesnaught,
+    [SPECIES_FENNEKIN] = gMonFootprint_Fennekin,
     [SPECIES_BRAIXEN] = gMonFootprint_Braixen,
     [SPECIES_DELPHOX] = gMonFootprint_Delphox,
     [SPECIES_FROAKIE] = gMonFootprint_Froakie,
@@ -914,4 +910,14 @@ const u8 *const gMonFootprintTable[] =
     [SPECIES_CALYREX] = gMonFootprint_Calyrex,
 #endif
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
+//Moemon International
+    [SPECIES_VALKYRIE] = gMonFootprint_Valkyrie,
+    [SPECIES_FLAK88] = gMonFootprint_Flak88,
+    [SPECIES_RYUUHOU] = gMonFootprint_Ryuuhou,
+    [SPECIES_ESCAVALIERSUMMER] = gMonFootprint_EscavalierSummer,
+    [SPECIES_GARCHOMPBUNNY] = gMonFootprint_GarchompBunny,
+    [SPECIES_VELUZA] = gMonFootprint_Veluza,
+    [SPECIES_COBALIONBUNNY] = gMonFootprint_CobalionBunny,
+    [SPECIES_TERRAKIONBUNNY] = gMonFootprint_TerrakionBunny,
+    [SPECIES_VIRIZIONBUNNY] = gMonFootprint_VirizionBunny,
 };

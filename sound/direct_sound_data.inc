@@ -2986,18 +2986,6 @@ Cry_Genesect::
 	.incbin "sound/direct_sound_samples/cries/genesect.bin"
 .endif
 
-	.align 2
-Cry_Valkyrie::
-	.incbin "sound/direct_sound_samples/cries/valkyrie.bin"
-
-	.align 2
-Cry_Flak88::
-	.incbin "sound/direct_sound_samples/cries/flak88.bin"
-
-	.align 2
-Cry_Ryuuhou::
-	.incbin "sound/direct_sound_samples/cries/ryuuhou.bin"
-
 .if P_GEN_6_POKEMON == TRUE
 	.align 2
 Cry_Chespin::
@@ -4377,6 +4365,42 @@ Cry_CalyrexShadowRider::
 	.incbin "sound/direct_sound_samples/cries/calyrex_shadow_rider.bin"
 
 .endif
+
+	.align 2
+Cry_Valkyrie::
+	.incbin "sound/direct_sound_samples/cries/valkyrie.bin"
+
+	.align 2
+Cry_Flak88::
+	.incbin "sound/direct_sound_samples/cries/flak88.bin"
+
+	.align 2
+Cry_Ryuuhou::
+	.incbin "sound/direct_sound_samples/cries/ryuuhou.bin"
+
+	.align 2
+Cry_EscavalierSummer::
+	.incbin "sound/direct_sound_samples/cries/escavalier.bin"
+
+	.align 2
+Cry_GarchompBunny::
+	.incbin "sound/direct_sound_samples/cries/garchomp.bin"
+
+	.align 2
+Cry_Veluza::
+	.incbin "sound/direct_sound_samples/cries/basculin.bin"
+
+	.align 2
+Cry_CobalionBunny::
+	.incbin "sound/direct_sound_samples/cries/cobalion.bin"
+
+	.align 2
+Cry_TerrakionBunny::
+	.incbin "sound/direct_sound_samples/cries/terrakion.bin"
+
+	.align 2
+Cry_VirizionBunny::
+	.incbin "sound/direct_sound_samples/cries/virizion.bin"
 
 	.align 2
 DirectSoundWaveData_register_noise::

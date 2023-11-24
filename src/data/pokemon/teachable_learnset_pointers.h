@@ -654,15 +654,11 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
     [SPECIES_MELOETTA] = sMeloettaTeachableLearnset,
     [SPECIES_GENESECT] = sGenesectTeachableLearnset,
 #endif
-    //Moemon International
-    [SPECIES_VALKYRIE] = sValkyrieTeachableLearnset,
-    [SPECIES_FLAK88] = sFlak88TeachableLearnset,
-    [SPECIES_RYUUHOU] = sRyuuhouTeachableLearnset,
 #if P_GEN_6_POKEMON == TRUE
     [SPECIES_CHESPIN] = sChespinTeachableLearnset,
-    //[SPECIES_QUILLADIN] = sQuilladinTeachableLearnset,
-    //[SPECIES_CHESNAUGHT] = sChesnaughtTeachableLearnset,
-    //[SPECIES_FENNEKIN] = sFennekinTeachableLearnset,
+    [SPECIES_QUILLADIN] = sQuilladinTeachableLearnset,
+    [SPECIES_CHESNAUGHT] = sChesnaughtTeachableLearnset,
+    [SPECIES_FENNEKIN] = sFennekinTeachableLearnset,
     [SPECIES_BRAIXEN] = sBraixenTeachableLearnset,
     [SPECIES_DELPHOX] = sDelphoxTeachableLearnset,
     [SPECIES_FROAKIE] = sFroakieTeachableLearnset,
@@ -1340,4 +1336,14 @@ const u16 *const gTeachableLearnsets[NUM_SPECIES] =
     [SPECIES_ENAMORUS_THERIAN] = sEnamorusTeachableLearnset,
     [SPECIES_BASCULEGION_FEMALE] = sBasculegionTeachableLearnset,
 #endif
+//Moemon International
+    [SPECIES_VALKYRIE] = sValkyrieTeachableLearnset,
+    [SPECIES_FLAK88] = sFlak88TeachableLearnset,
+    [SPECIES_RYUUHOU] = sRyuuhouTeachableLearnset,
+    [SPECIES_ESCAVALIERSUMMER] = sEscavalierSummerTeachableLearnset,
+    [SPECIES_GARCHOMPBUNNY] = sGarchompBunnyTeachableLearnset,
+    [SPECIES_VELUZA] = sVeluzaTeachableLearnset,
+    [SPECIES_COBALIONBUNNY] = sCobalionBunnyTeachableLearnset,
+    [SPECIES_TERRAKIONBUNNY] = sTerrakionBunnyTeachableLearnset,
+    [SPECIES_VIRIZIONBUNNY] = sVirizionBunnyTeachableLearnset,
 };

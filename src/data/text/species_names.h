@@ -653,15 +653,11 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_MELOETTA] = _("Meloetta"),
     [SPECIES_GENESECT] = _("Genesect"),
 #endif
-    //Moemon International
-    [SPECIES_VALKYRIE] = _("Valkyrie"),
-    [SPECIES_FLAK88] = _("Flak 88"),
-    [SPECIES_RYUUHOU] = _("Ryuuhou"),
 #if P_GEN_6_POKEMON == TRUE
     [SPECIES_CHESPIN] = _("Chespin"),
-    //[SPECIES_QUILLADIN] = _("Quilladin"),
-    //[SPECIES_CHESNAUGHT] = _("Chesnaught"),
-    //[SPECIES_FENNEKIN] = _("Fennekin"),
+    [SPECIES_QUILLADIN] = _("Quilladin"),
+    [SPECIES_CHESNAUGHT] = _("Chesnaught"),
+    [SPECIES_FENNEKIN] = _("Fennekin"),
     [SPECIES_BRAIXEN] = _("Braixen"),
     [SPECIES_DELPHOX] = _("Delphox"),
     [SPECIES_FROAKIE] = _("Froakie"),
@@ -1342,4 +1338,14 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_CALYREX_SHADOW_RIDER] = _("Calyrex"),
     [SPECIES_BASCULEGION_FEMALE] = _("Bsculegion"),
 #endif
+//Moemon International
+    [SPECIES_VALKYRIE] = _("Valkyrie"),
+    [SPECIES_FLAK88] = _("Flak 88"),
+    [SPECIES_RYUUHOU] = _("Ryuuhou"),
+    [SPECIES_ESCAVALIERSUMMER] = _("Escavalier"),
+    [SPECIES_GARCHOMPBUNNY] = _("Garchomp"),
+    [SPECIES_VELUZA] = _("Veluza"),
+    [SPECIES_COBALIONBUNNY] = _("Cobalion"),
+    [SPECIES_TERRAKIONBUNNY] = _("Terrakion"),
+    [SPECIES_VIRIZIONBUNNY] = _("Virizion"),
 };

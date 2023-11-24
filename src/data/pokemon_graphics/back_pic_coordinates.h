@@ -3250,43 +3250,27 @@ const struct MonCoords gMonBackPicCoords[] =
         .size = 0x88,
         .y_offset = 0,
     },
-    //Moemon International
-    [SPECIES_VALKYRIE] =
-    {
-        .size = 0x88,
-        .y_offset = 0,
-    },
-    [SPECIES_FLAK88] =
-    {
-        .size = 0x88,
-        .y_offset = 0,
-    },
-    [SPECIES_RYUUHOU] =
-    {
-        .size = 0x88,
-        .y_offset = 0,
-    },
     
     [SPECIES_CHESPIN] =
     {
         .size = 0x88,
         .y_offset = 0,
     },
-    //[SPECIES_QUILLADIN] =
-    //{
-    //    .size = 0x88,
-    //    .y_offset = 0,
-    //},
-    //[SPECIES_CHESNAUGHT] =
-    //{
-    //    .size = 0x88,
-    //    .y_offset = 0,
-    //},
-    //[SPECIES_FENNEKIN] =
-    //{
-    //    .size = 0x88,
-    //    .y_offset = 0,
-    //},
+    [SPECIES_QUILLADIN] =
+    {
+        .size = 0x88,
+        .y_offset = 0,
+    },
+    [SPECIES_CHESNAUGHT] =
+    {
+        .size = 0x88,
+        .y_offset = 0,
+    },
+    [SPECIES_FENNEKIN] =
+    {
+        .size = 0x88,
+        .y_offset = 0,
+    },
     [SPECIES_BRAIXEN] =
     {
         .size = 0x88,
@@ -6119,6 +6103,52 @@ const struct MonCoords gMonBackPicCoords[] =
     },
     // Egg
     [SPECIES_EGG] =
+    {
+        .size = 0x88,
+        .y_offset = 0,
+    },
+//Moemon International
+    [SPECIES_VALKYRIE] =
+    {
+        .size = 0x88,
+        .y_offset = 0,
+    },
+    [SPECIES_FLAK88] =
+    {
+        .size = 0x88,
+        .y_offset = 0,
+    },
+    [SPECIES_RYUUHOU] =
+    {
+        .size = 0x88,
+        .y_offset = 0,
+    },
+    [SPECIES_ESCAVALIERSUMMER] =
+    {
+        .size = 0x88,
+        .y_offset = 0,
+    },
+    [SPECIES_GARCHOMPBUNNY] =
+    {
+        .size = 0x88,
+        .y_offset = 0,
+    },
+    [SPECIES_VELUZA] =
+    {
+        .size = 0x88,
+        .y_offset = 0,
+    },
+    [SPECIES_COBALIONBUNNY] =
+    {
+        .size = 0x88,
+        .y_offset = 0,
+    },
+    [SPECIES_TERRAKIONBUNNY] =
+    {
+        .size = 0x88,
+        .y_offset = 0,
+    },
+    [SPECIES_VIRIZIONBUNNY] =
     {
         .size = 0x88,
         .y_offset = 0,

@@ -1278,9 +1278,17 @@ extern const u32 gMonFrontPic_CalyrexShadowRider[];
 extern const u32 gMonFrontPic_EnamorusTherian[];
 extern const u32 gMonFrontPic_BasculegionFemale[];
 #endif
+//Moemon International
 extern const u32 gMonFrontPic_Valkyrie[];
 extern const u32 gMonFrontPic_Flak88[];
 extern const u32 gMonFrontPic_Ryuuhou[];
+extern const u32 gMonFrontPic_EscavalierSummer[];
+extern const u32 gMonFrontPic_GarchompBunny[];
+extern const u32 gMonFrontPic_Veluza[];
+extern const u32 gMonFrontPic_CobalionBunny[];
+extern const u32 gMonFrontPic_TerrakionBunny[];
+extern const u32 gMonFrontPic_VirizionBunny[];
+//
 extern const u32 gMonFrontPic_Egg[];
 
 extern const u32 gMonBackPic_CircledQuestionMark[];
@@ -2493,9 +2501,17 @@ extern const u32 gMonBackPic_CalyrexShadowRider[];
 extern const u32 gMonBackPic_EnamorusTherian[];
 extern const u32 gMonBackPic_BasculegionFemale[];
 #endif
+//Moemon International
 extern const u32 gMonBackPic_Valkyrie[];
 extern const u32 gMonBackPic_Flak88[];
 extern const u32 gMonBackPic_Ryuuhou[];
+extern const u32 gMonBackPic_EscavalierSummer[];
+extern const u32 gMonBackPic_GarchompBunny[];
+extern const u32 gMonBackPic_Veluza[];
+extern const u32 gMonBackPic_CobalionBunny[];
+extern const u32 gMonBackPic_TerrakionBunny[];
+extern const u32 gMonBackPic_VirizionBunny[];
+//
 
 extern const u32 gMonPalette_CircledQuestionMark[];
 extern const u32 gMonPalette_DoubleQuestionMark[];
@@ -3728,9 +3744,17 @@ extern const u32 gMonPalette_CalyrexShadowRider[];
 extern const u32 gMonPalette_EnamorusTherian[];
 extern const u32 gMonPalette_BasculegionFemale[];
 #endif
+//Moemon International
 extern const u32 gMonPalette_Valkyrie[];
 extern const u32 gMonPalette_Flak88[];
 extern const u32 gMonPalette_Ryuuhou[];
+extern const u32 gMonPalette_EscavalierSummer[];
+extern const u32 gMonPalette_GarchompBunny[];
+extern const u32 gMonPalette_Veluza[];
+extern const u32 gMonPalette_CobalionBunny[];
+extern const u32 gMonPalette_TerrakionBunny[];
+extern const u32 gMonPalette_VirizionBunny[];
+//
 extern const u32 gMonPalette_Egg[];
 
 extern const u32 gMonShinyPalette_CircledQuestionMark[];
@@ -4958,9 +4982,17 @@ extern const u32 gMonShinyPalette_CalyrexShadowRider[];
 extern const u32 gMonShinyPalette_EnamorusTherian[];
 extern const u32 gMonShinyPalette_BasculegionFemale[];
 #endif
+//Moemon International
 extern const u32 gMonShinyPalette_Valkyrie[];
 extern const u32 gMonShinyPalette_Flak88[];
 extern const u32 gMonShinyPalette_Ryuuhou[];
+extern const u32 gMonShinyPalette_EscavalierSummer[];
+extern const u32 gMonShinyPalette_GarchompBunny[];
+extern const u32 gMonShinyPalette_Veluza[];
+extern const u32 gMonShinyPalette_CobalionBunny[];
+extern const u32 gMonShinyPalette_TerrakionBunny[];
+extern const u32 gMonShinyPalette_VirizionBunny[];
+//
 
 extern const u8 gMonIcon_QuestionMark[];
 extern const u8 gMonIcon_Bulbasaur[];
@@ -6181,9 +6213,17 @@ extern const u8 gMonIcon_CalyrexShadowRider[];
 extern const u8 gMonIcon_EnamorusTherian[];
 extern const u8 gMonIcon_BasculegionFemale[];
 #endif
+//Moemon International
 extern const u8 gMonIcon_Valkyrie[];
 extern const u8 gMonIcon_Flak88[];
 extern const u8 gMonIcon_Ryuuhou[];
+extern const u8 gMonIcon_EscavalierSummer[];
+extern const u8 gMonIcon_GarchompBunny[];
+extern const u8 gMonIcon_Veluza[];
+extern const u8 gMonIcon_CobalionBunny[];
+extern const u8 gMonIcon_TerrakionBunny[];
+extern const u8 gMonIcon_VirizionBunny[];
+//
 extern const u8 gMonIcon_Egg[];
 
 extern const u8 gMonFootprint_QuestionMark[];
@@ -7103,9 +7143,17 @@ extern const u8 gMonFootprint_Calyrex[];
 //extern const u8 gMonFootprint_Overqwil[];
 //extern const u8 gMonFootprint_Enamorus[];
 #endif
+//Moemon International
 extern const u8 gMonFootprint_Valkyrie[];
 extern const u8 gMonFootprint_Flak88[];
 extern const u8 gMonFootprint_Ryuuhou[];
+extern const u8 gMonFootprint_EscavalierSummer[];
+extern const u8 gMonFootprint_GarchompBunny[];
+extern const u8 gMonFootprint_Veluza[];
+extern const u8 gMonFootprint_CobalionBunny[];
+extern const u8 gMonFootprint_TerrakionBunny[];
+extern const u8 gMonFootprint_VirizionBunny[];
+//
 
 // trainer sprites
 extern const u32 gTrainerFrontPic_Hiker[];

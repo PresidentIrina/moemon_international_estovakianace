@@ -918,9 +918,6 @@ gCryTable::
 	cry Cry_Unown
 	cry Cry_Unown
 .endif
-	cry Cry_Valkyrie
-	cry Cry_Flak88
-	cry Cry_Ryuuhou
 .if P_GEN_6_POKEMON == TRUE
 	cry Cry_Chespin
 	cry Cry_Quilladin
@@ -2126,6 +2123,15 @@ gCryTable::
 	@ Basculegion
 	cry Cry_Unown
 .endif
+	cry Cry_Valkyrie
+	cry Cry_Flak88
+	cry Cry_Ryuuhou
+	cry Cry_EscavalierSummer
+	cry Cry_GarchompBunny
+	cry Cry_Veluza
+	cry Cry_CobalionBunny
+	cry Cry_TerrakionBunny
+	cry Cry_VirizionBunny
 
 	.align 2
 gCryTable_Reverse::
@@ -3047,9 +3053,6 @@ gCryTable_Reverse::
 	cry_reverse Cry_Unown
 	cry_reverse Cry_Unown
 .endif
-	cry_reverse Cry_Valkyrie
-	cry_reverse Cry_Flak88
-	cry_reverse Cry_Ryuuhou
 .if P_GEN_6_POKEMON == TRUE
 	cry_reverse Cry_Chespin
 	cry_reverse Cry_Quilladin
@@ -4201,3 +4204,13 @@ gCryTable_Reverse::
 	cry_reverse Cry_Unown
 	cry_reverse Cry_Unown
 .endif
+
+	cry_reverse Cry_Valkyrie
+	cry_reverse Cry_Flak88
+	cry_reverse Cry_Ryuuhou
+	cry_reverse Cry_EscavalierSummer
+	cry_reverse Cry_GarchompBunny
+	cry_reverse Cry_Veluza
+	cry_reverse Cry_CobalionBunny
+	cry_reverse Cry_TerrakionBunny
+	cry_reverse Cry_VirizionBunny

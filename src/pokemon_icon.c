@@ -684,6 +684,12 @@ const u8 *const gMonIconTable[] =
     [SPECIES_VALKYRIE] = gMonIcon_Valkyrie,
     [SPECIES_FLAK88] = gMonIcon_Flak88,
     [SPECIES_RYUUHOU] = gMonIcon_Ryuuhou,
+    [SPECIES_ESCAVALIERSUMMER] = gMonIcon_EscavalierSummer,
+    [SPECIES_GARCHOMPBUNNY] = gMonIcon_GarchompBunny,
+    [SPECIES_VELUZA] = gMonIcon_Veluza,
+    [SPECIES_COBALIONBUNNY] = gMonIcon_CobalionBunny,
+    [SPECIES_TERRAKIONBUNNY] = gMonIcon_TerrakionBunny,
+    [SPECIES_VIRIZIONBUNNY] = gMonIcon_VirizionBunny,
 #if P_GEN_6_POKEMON == TRUE
     [SPECIES_CHESPIN] = gMonIcon_Chespin,
     //[SPECIES_QUILLADIN] = gMonIcon_Quilladin,
@@ -1983,14 +1989,10 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_KELDEO] = 0,
     [SPECIES_MELOETTA] = 4,
     [SPECIES_GENESECT] = 2,
-    //Moemon International
-    [SPECIES_VALKYRIE] = 5,
-    [SPECIES_FLAK88] = 0,
-    [SPECIES_RYUUHOU] = 0,
     [SPECIES_CHESPIN] = 1,
-    //[SPECIES_QUILLADIN] = 1,
-    //[SPECIES_CHESNAUGHT] = 1,
-    //[SPECIES_FENNEKIN] = 0,
+    [SPECIES_QUILLADIN] = 1,
+    [SPECIES_CHESNAUGHT] = 1,
+    [SPECIES_FENNEKIN] = 0,
     [SPECIES_BRAIXEN] = 0,
     [SPECIES_DELPHOX] = 0,
     [SPECIES_FROAKIE] = 0,
@@ -2551,6 +2553,16 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_BASCULEGION_FEMALE] = 0,
 #endif
     [SPECIES_EGG] = 1,
+    //Moemon International
+    [SPECIES_VALKYRIE] = 5,
+    [SPECIES_FLAK88] = 0,
+    [SPECIES_RYUUHOU] = 0,
+    [SPECIES_ESCAVALIERSUMMER] = 0,
+    [SPECIES_GARCHOMPBUNNY] = 0,
+    [SPECIES_VELUZA] = 1,
+    [SPECIES_COBALIONBUNNY] = 0,
+    [SPECIES_TERRAKIONBUNNY] = 2,
+    [SPECIES_VIRIZIONBUNNY] = 1,
 };
 
 const u8 gMonIconPaletteIndicesFemale[] =

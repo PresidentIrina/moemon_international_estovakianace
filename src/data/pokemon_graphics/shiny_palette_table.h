@@ -654,15 +654,11 @@ const struct CompressedSpritePalette gMonShinyPaletteTable[] =
     SPECIES_SHINY_PAL(MELOETTA, gMonShinyPalette_Meloetta),
     SPECIES_SHINY_PAL(GENESECT, gMonShinyPalette_Genesect),
 #endif
-    //Moemon International
-    SPECIES_SHINY_PAL(VALKYRIE, gMonShinyPalette_Valkyrie),
-    SPECIES_SHINY_PAL(FLAK88, gMonShinyPalette_Flak88),
-    SPECIES_SHINY_PAL(RYUUHOU, gMonShinyPalette_Ryuuhou),
 #if P_GEN_6_POKEMON == TRUE
     SPECIES_SHINY_PAL(CHESPIN, gMonShinyPalette_Chespin),
-    //SPECIES_SHINY_PAL(QUILLADIN, gMonShinyPalette_Quilladin),
-    //SPECIES_SHINY_PAL(CHESNAUGHT, gMonShinyPalette_Chesnaught),
-    //SPECIES_SHINY_PAL(FENNEKIN, gMonShinyPalette_Fennekin),
+    SPECIES_SHINY_PAL(QUILLADIN, gMonShinyPalette_Quilladin),
+    SPECIES_SHINY_PAL(CHESNAUGHT, gMonShinyPalette_Chesnaught),
+    SPECIES_SHINY_PAL(FENNEKIN, gMonShinyPalette_Fennekin),
     SPECIES_SHINY_PAL(BRAIXEN, gMonShinyPalette_Braixen),
     SPECIES_SHINY_PAL(DELPHOX, gMonShinyPalette_Delphox),
     SPECIES_SHINY_PAL(FROAKIE, gMonShinyPalette_Froakie),
@@ -1362,4 +1358,14 @@ const struct CompressedSpritePalette gMonShinyPaletteTableFemale[] =
 #if P_GEN_6_POKEMON == TRUE
     SPECIES_SHINY_PAL(PYROAR, gMonShinyPalette_Pyroar),
 #endif
+//Moemon International
+    SPECIES_SHINY_PAL(VALKYRIE, gMonShinyPalette_Valkyrie),
+    SPECIES_SHINY_PAL(FLAK88, gMonShinyPalette_Flak88),
+    SPECIES_SHINY_PAL(RYUUHOU, gMonShinyPalette_Ryuuhou),
+    SPECIES_SHINY_PAL(ESCAVALIERSUMMER, gMonShinyPalette_EscavalierSummer),
+    SPECIES_SHINY_PAL(GARCHOMPBUNNY, gMonShinyPalette_GarchompBunny),
+    SPECIES_SHINY_PAL(VELUZA, gMonShinyPalette_Veluza),
+    SPECIES_SHINY_PAL(COBALIONBUNNY, gMonShinyPalette_CobalionBunny),
+    SPECIES_SHINY_PAL(TERRAKIONBUNNY, gMonShinyPalette_TerrakionBunny),
+    SPECIES_SHINY_PAL(VIRIZIONBUNNY, gMonShinyPalette_VirizionBunny),
 };

@@ -654,15 +654,11 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_MELOETTA] = sMeloettaLevelUpLearnset,
     [SPECIES_GENESECT] = sGenesectLevelUpLearnset,
 #endif
-    //Moemon International
-    [SPECIES_VALKYRIE] = sValkyrieLevelUpLearnset,
-    [SPECIES_FLAK88] = sFlak88LevelUpLearnset,
-    [SPECIES_RYUUHOU] = sRyuuhouLevelUpLearnset,
 #if P_GEN_6_POKEMON == TRUE
     [SPECIES_CHESPIN] = sChespinLevelUpLearnset,
-    //[SPECIES_QUILLADIN] = sQuilladinLevelUpLearnset,
-    //[SPECIES_CHESNAUGHT] = sChesnaughtLevelUpLearnset,
-    //[SPECIES_FENNEKIN] = sFennekinLevelUpLearnset,
+    [SPECIES_QUILLADIN] = sQuilladinLevelUpLearnset,
+    [SPECIES_CHESNAUGHT] = sChesnaughtLevelUpLearnset,
+    [SPECIES_FENNEKIN] = sFennekinLevelUpLearnset,
     [SPECIES_BRAIXEN] = sBraixenLevelUpLearnset,
     [SPECIES_DELPHOX] = sDelphoxLevelUpLearnset,
     [SPECIES_FROAKIE] = sFroakieLevelUpLearnset,
@@ -1340,4 +1336,14 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_ENAMORUS_THERIAN] = sEnamorusLevelUpLearnset,
     [SPECIES_BASCULEGION_FEMALE] = sBasculegionLevelUpLearnset,
 #endif
+//Moemon International
+    [SPECIES_VALKYRIE] = sValkyrieLevelUpLearnset,
+    [SPECIES_FLAK88] = sFlak88LevelUpLearnset,
+    [SPECIES_RYUUHOU] = sRyuuhouLevelUpLearnset,
+    [SPECIES_ESCAVALIERSUMMER] = sEscavalierSummerLevelUpLearnset,
+    [SPECIES_GARCHOMPBUNNY] = sGarchompBunnyLevelUpLearnset,
+    [SPECIES_VELUZA] = sVeluzaLevelUpLearnset,
+    [SPECIES_COBALIONBUNNY] = sCobalionBunnyLevelUpLearnset,
+    [SPECIES_TERRAKIONBUNNY] = sTerrakionBunnyLevelUpLearnset,
+    [SPECIES_VIRIZIONBUNNY] = sVirizionBunnyLevelUpLearnset,
 };

@@ -925,17 +925,12 @@ static const u8 sSpeciesToBackAnimSet[NUM_SPECIES] =
     [SPECIES_GENESECT_SHOCK_DRIVE]         = BACK_ANIM_CIRCLE_COUNTERCLOCKWISE,
     [SPECIES_GENESECT_BURN_DRIVE]          = BACK_ANIM_CIRCLE_COUNTERCLOCKWISE,
     [SPECIES_GENESECT_CHILL_DRIVE]         = BACK_ANIM_CIRCLE_COUNTERCLOCKWISE,
-
-    //Moemon International
-    [SPECIES_VALKYRIE]                     = BACK_ANIM_JOLT_RIGHT,
-    [SPECIES_FLAK88]                       = BACK_ANIM_V_SHAKE,
-    [SPECIES_RYUUHOU]                      = BACK_ANIM_TRIANGLE_DOWN,
     
     //Gen 6
     [SPECIES_CHESPIN]                      = BACK_ANIM_H_SLIDE,
-    //[SPECIES_QUILLADIN]                    = BACK_ANIM_GROW,
-    //[SPECIES_CHESNAUGHT]                   = BACK_ANIM_V_SHAKE_LOW,
-    //[SPECIES_FENNEKIN]                     = BACK_ANIM_CONCAVE_ARC_SMALL,
+    [SPECIES_QUILLADIN]                    = BACK_ANIM_GROW,
+    [SPECIES_CHESNAUGHT]                   = BACK_ANIM_V_SHAKE_LOW,
+    [SPECIES_FENNEKIN]                     = BACK_ANIM_CONCAVE_ARC_SMALL,
     [SPECIES_BRAIXEN]                      = BACK_ANIM_CONCAVE_ARC_LARGE,
     [SPECIES_DELPHOX]                      = BACK_ANIM_GROW_STUTTER,
     [SPECIES_FROAKIE]                      = BACK_ANIM_SHRINK_GROW,
@@ -1113,6 +1108,16 @@ static const u8 sSpeciesToBackAnimSet[NUM_SPECIES] =
     [SPECIES_RAYQUAZA_MEGA]                = BACK_ANIM_SHAKE_GLOW_GREEN,
     [SPECIES_KYOGRE_PRIMAL]                = BACK_ANIM_SHAKE_GLOW_BLUE,
     [SPECIES_GROUDON_PRIMAL]               = BACK_ANIM_SHAKE_GLOW_RED,
+//Moemon International
+    [SPECIES_VALKYRIE]                     = BACK_ANIM_JOLT_RIGHT,
+    [SPECIES_FLAK88]                       = BACK_ANIM_V_SHAKE,
+    [SPECIES_RYUUHOU]                      = BACK_ANIM_TRIANGLE_DOWN,
+    [SPECIES_ESCAVALIERSUMMER]             = BACK_ANIM_JOLT_RIGHT,
+    [SPECIES_GARCHOMPBUNNY]                = BACK_ANIM_V_SHAKE_LOW,
+    [SPECIES_VELUZA]                       = BACK_ANIM_H_SHAKE,
+    [SPECIES_COBALIONBUNNY]                = BACK_ANIM_V_STRETCH,
+    [SPECIES_TERRAKIONBUNNY]               = BACK_ANIM_V_SHAKE_LOW,
+    [SPECIES_VIRIZIONBUNNY]                = BACK_ANIM_H_SHAKE,
     
 };
 
